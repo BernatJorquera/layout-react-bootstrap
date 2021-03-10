@@ -6,12 +6,12 @@
   'Open Sans', 'Helvetica Neue', sans-serif;
   height: 100vh;
 }
+main, section {
+  flex-grow: 1;
+}
 header, footer {
   color: white;
   background-color: #2d3142;
-}
-#main {
-  margin: 0;
 }
 .principal {
   color: #333333;
